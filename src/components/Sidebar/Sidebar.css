@@ -1,0 +1,57 @@
+.sidebar{
+    flex: 3;
+    height: calc(100vh - 50px);
+    
+}
+.sideWrapper{
+    padding: 20px 30px;
+}
+.sidebarList{
+    padding: 0px;
+    margin: 0px;
+    list-style: none;
+}
+.sidebarListitem{
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.sidebarIcon{
+    margin-right: 15px;
+}
+
+.sidebarbutton{
+    width:150px;
+    border: none;
+    padding: 10px;
+    border-radius: 5px;
+    font-weight: bold;
+    background-color: rgb(255, 0, 0);
+    color: white;
+    cursor: pointer;
+}
+.sidebarHR{
+    margin: 20px 0px;
+}
+
+.sidebarfriendlist{
+    padding: 0px;
+    margin: 0px;
+    list-style: none;
+}
+
+.sidebarfriend{
+display: flex;
+align-items: center;
+margin-bottom: 15px;
+}
+
+.sidebarFriendImage{
+    width: 32px;
+    height: 32px;
+    border-radius: 50%;
+    object-fit: cobver;
+    border: 1px solid black;
+    margin-right: 10px;
+}
