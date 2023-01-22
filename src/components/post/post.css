@@ -1,0 +1,80 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.post{
+width: 100%;
+border-radius: 10px;
+box-shadow: 9px 22px 24px -11px rgba(0, 0, 0, 0.78);
+    -webkit-box-shadow: 9px 22px 24px -11px rgba(0, 0, 0, 0.78);
+    -moz-box-shadow: 9px 22px 24px -11px rgba(0, 0, 0, 0.78);
+    margin: 30px 0px;
+}
+.postWrapper{
+    padding: 10px;
+}
+
+.postTop{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.postTopLeft{
+display: flex;
+text-align: center;
+}
+
+.postProfileImg{
+    width: 32px;
+    height: 32px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.postUserName{
+    font-size: 16px;
+    margin: 0 10px;
+    font-weight: 600;
+}
+
+.postDate{
+    font-size: 12px;
+}
+
+.postCenter{
+    margin: 20px 0;
+}
+.postImage{
+    margin-top: 20px;
+    width: 100%;
+    max-height: 500px;
+    object-fit: contain;
+}
+
+.postBottom{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.postBottomLeft{
+    display: flex;
+    align-items: center;
+}
+
+.likeIcon{
+    width: 24px;
+    height: 24px;
+    margin-right: 5px;
+    cursor: pointer;
+}
+.likeCounter{
+    font-size: 15px;
+}
+
+.postCommentText{
+    font-size: 15px;
+    cursor: pointer;
+    border: 1px dashed gray;
+    padding: 2px;
+}
