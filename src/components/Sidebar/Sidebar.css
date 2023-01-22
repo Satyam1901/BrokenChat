@@ -1,28 +1,49 @@
-.sidebar{
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+.sidebar {
     flex: 3;
     height: calc(100vh - 50px);
-    
+    overflow-y: scroll;
+    background-color: rgb(255, 255, 255);
 }
-.sideWrapper{
+
+::-webkit-scrollbar {
+    width: 5px;
+
+}
+
+::-webkit-scrollbar-track {
+    background-color: rgb(250, 250, 250);
+
+}
+
+::-webkit-scrollbar-thumb {
+    background-color: #c0c0c0;
+}
+
+.sideWrapper {
     padding: 20px 30px;
 }
-.sidebarList{
+
+.sidebarList {
     padding: 0px;
     margin: 0px;
     list-style: none;
 }
-.sidebarListitem{
+
+.sidebarListitem {
     display: flex;
     align-items: center;
     margin-bottom: 20px;
 }
 
-.sidebarIcon{
+.sidebarIcon {
     margin-right: 15px;
 }
 
-.sidebarbutton{
-    width:150px;
+.sidebarbutton {
+    width: 150px;
     border: none;
     padding: 10px;
     border-radius: 5px;
@@ -31,23 +52,24 @@
     color: white;
     cursor: pointer;
 }
-.sidebarHR{
+
+.sidebarHR {
     margin: 20px 0px;
 }
 
-.sidebarfriendlist{
+.sidebarfriendlist {
     padding: 0px;
     margin: 0px;
     list-style: none;
 }
 
-.sidebarfriend{
-display: flex;
-align-items: center;
-margin-bottom: 15px;
+.sidebarfriend {
+    display: flex;
+    align-items: center;
+    margin-bottom: 15px;
 }
 
-.sidebarFriendImage{
+.sidebarFriendImage {
     width: 32px;
     height: 32px;
     border-radius: 50%;
